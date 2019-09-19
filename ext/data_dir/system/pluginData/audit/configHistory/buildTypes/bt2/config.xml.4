@@ -3,16 +3,13 @@
   <name>My build configuration</name>
   <description />
   <settings>
-    <options>
-      <option name="artifactRules" value="**" />
-    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="" type="dotnet.cli">
         <parameters>
           <param name="command" value="build" />
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
-          <param name="teamcity.build.workingDir" value="src" />
+          <param name="paths" value="src/MyConsoleApplication.sln" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
