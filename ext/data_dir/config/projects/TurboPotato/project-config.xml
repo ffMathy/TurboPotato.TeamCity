@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="1e4d1bd9-527e-4019-83ef-cd5c685f7e64" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>TurboPotato</name>
+  <parameters />
+  <cleanup />
+</project>
+

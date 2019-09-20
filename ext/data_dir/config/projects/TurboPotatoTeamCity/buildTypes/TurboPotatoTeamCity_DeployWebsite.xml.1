@@ -28,6 +28,10 @@
         <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
         <artifact sourcePath="binaries.zip!**=&gt;bin" />
       </dependency>
+      <dependency id="ARTIFACT_DEPENDENCY_3" sourceBuildTypeId="TurboPotatoTeamCity_MinifyJavaScript" cleanDestination="true">
+        <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
+        <artifact sourcePath="wwwroot/**=&gt;" />
+      </dependency>
     </artifact-dependencies>
     <dependencies>
       <depend-on sourceBuildTypeId="MyProject_CompileNet">

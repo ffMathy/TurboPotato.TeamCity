@@ -23,6 +23,12 @@
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_2" sourceBuildTypeId="MyProject_CompileNet" cleanDestination="true">
+        <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
+        <artifact sourcePath="binaries.zip!**=&gt;bin" />
+      </dependency>
+    </artifact-dependencies>
     <dependencies>
       <depend-on sourceBuildTypeId="MyProject_CompileNet">
         <options>
