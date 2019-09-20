@@ -7,27 +7,27 @@ services:
     volumes:
       - ./data_dir:/data/teamcity_server/datadir
       - ./log_dir:/opt/teamcity/logs
-  teamcity-agent:
+  teamcity-agent1:
     image: jetbrains/teamcity-agent
     environment:
       - SERVER_URL=http://server:8111
       - AGENT_NAME=agent1
-  teamcity-agent:
+  teamcity-agent2:
     image: jetbrains/teamcity-agent
     environment:
       - SERVER_URL=http://server:8111
       - AGENT_NAME=agent2
-  teamcity-agent:
+  teamcity-agent3:
     image: jetbrains/teamcity-agent
     environment:
       - SERVER_URL=http://server:8111
       - AGENT_NAME=agent3
-  teamcity-agent:
+  teamcity-agent4:
     image: jetbrains/teamcity-agent
     environment:
       - SERVER_URL=http://server:8111
       - AGENT_NAME=agent4
-  teamcity-agent:
+  teamcity-agent5:
     image: jetbrains/teamcity-agent
     environment:
       - SERVER_URL=http://server:8111
